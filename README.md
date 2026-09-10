@@ -1,3 +1,4 @@
+[![SOC Log Analyzer CI](https://github.com/fathhurrahman/SOC-Log_Analyzer/actions/workflows/ci.yml/badge.svg)](https://github.com/fathhurrahman/SOC-Log_Analyzer/actions/workflows/ci.yml)
 # 🛡️ SOC Log Analyzer
 
 A Python-based Security Operations Center (SOC) log analysis tool that detects repeated failed login attempts, identifies suspicious IP addresses, classifies risk levels, and generates security recommendations.
