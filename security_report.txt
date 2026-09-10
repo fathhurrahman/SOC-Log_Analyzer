@@ -1,0 +1,17 @@
+======================================
+        SOC SECURITY REPORT
+======================================
+
+Total Failed Login Attempts: 10
+
+IP RISK ANALYSIS
+----------------
+192.168.1.50 -> 3 failed attempts -> MEDIUM RISK
+Recommendation: Investigate the login activity and monitor the IP.
+
+10.0.0.25 -> 2 failed attempts -> LOW RISK
+Recommendation: Continue monitoring the IP.
+
+10.0.0.99 -> 5 failed attempts -> HIGH RISK
+Recommendation: Investigate immediately and consider blocking the IP.
+
