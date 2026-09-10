@@ -1,17 +1,35 @@
-======================================
-        SOC SECURITY REPORT
-======================================
+==================================================
+             SOC SECURITY REPORT
+==================================================
 
+Report Generated: 2026-09-10 18:21:56
 Total Failed Login Attempts: 10
+Unique Source IP Addresses: 3
 
 IP RISK ANALYSIS
-----------------
-192.168.1.50 -> 3 failed attempts -> MEDIUM RISK
-Recommendation: Investigate the login activity and monitor the IP.
-
-10.0.0.25 -> 2 failed attempts -> LOW RISK
-Recommendation: Continue monitoring the IP.
-
-10.0.0.99 -> 5 failed attempts -> HIGH RISK
+--------------------------------------------------
+IP Address: 10.0.0.99
+Failed Attempts: 5
+Risk Level: HIGH
 Recommendation: Investigate immediately and consider blocking the IP.
+--------------------------------------------------
+IP Address: 192.168.1.50
+Failed Attempts: 3
+Risk Level: MEDIUM
+Recommendation: Investigate the login activity and monitor the IP.
+--------------------------------------------------
+IP Address: 10.0.0.25
+Failed Attempts: 2
+Risk Level: LOW
+Recommendation: Continue monitoring the IP.
+--------------------------------------------------
 
+RISK SUMMARY
+--------------------------------------------------
+HIGH Risk IPs: 1
+MEDIUM Risk IPs: 1
+LOW Risk IPs: 1
+
+==================================================
+End of SOC Security Report
+==================================================
